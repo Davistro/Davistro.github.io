@@ -1,0 +1,158 @@
+.bod, .color{
+  background-color:rgba(64, 173, 180, 0.38);
+}
+a{
+  text-decoration: none;
+}
+.color.card.animated.slideInDown{
+  background-color:rgba(64, 173, 180, 0.38);
+}
+
+.body{
+
+  padding-top: 10px;
+  padding-bottom: 60px;
+
+}
+
+.menu {
+  background: linear-gradient(); /*dos colores o mas*/
+  background:  #00091a;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 1em;
+  border-radius: 6px;
+}
+p{
+      text-align: center;
+}
+p a{
+  text-decoration: none;
+  color: #33434f;
+}
+p.expli{
+  text-align: justify;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.descarga {
+  text-decoration: none;
+  color: #8225E2;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+              0 3px 6px rgba(0,0,0,0.26);
+
+}
+
+
+h1 {
+
+  text-align: center; /*centrar texto*/
+  font-family: 'console', bold;
+  font-size: 2.5em;
+  margin-top: 0;}
+h2{
+
+  text-align: center; /*centrar texto*/
+  font-family: 'console';
+  font-size: 1.5em;
+  margin-top: 0;}
+
+
+pre{
+
+  text-align: justify;
+  font-family: 'console';
+  font-size: 18px;
+
+}
+
+.main-containe{
+  min-height: 100vh;
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.delay-1{
+  animation-delay: 0.1s;
+  position: relative;
+  z-index: 5;
+}
+.delay-2{
+  animation-delay: 0.2s;
+  position: relative;
+  z-index: 4;
+}
+.delay-3{
+  animation-delay: 0.3s;
+  position: relative;
+  z-index: 3;
+}
+.delay-4{
+  animation-delay: 0.4s;
+  position: relative;
+  z-index: 2;
+}
+.delay-5{
+  animation-delay: 0.5s;
+  position: relative;
+  z-index: 1;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  top:bottom 25px; 
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
